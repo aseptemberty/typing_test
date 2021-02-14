@@ -1,0 +1,13 @@
+.base{
+    color: slategray;
+}
+.active{
+    background-color: lightgreen;
+    color: #282c34;
+}
+.right{
+    color: darkgreen;
+}
+.wrong{
+    color: darkred;
+}
