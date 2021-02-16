@@ -1,5 +1,7 @@
 import './HiddenInput.css'
-import {onSubmit} from "../Typing";
+import {keyPressHandler} from "./keyPressHandler";
+import {speedCounter} from "./speedCounter";
+
 
 function HiddenInput(){
     return(
@@ -7,7 +9,9 @@ function HiddenInput(){
                     type="text"
                     className="HiddenInput"
                     id='hiddenInput'
-                    onKeyPress={event=>onSubmit(event)}/>
+                    onKeyPress={event=>keyPressHandler(event)}
+                    onKeyDown={speedCounter}
+                />
     );
 }
         export default HiddenInput

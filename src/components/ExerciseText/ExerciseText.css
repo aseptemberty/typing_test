@@ -7,7 +7,9 @@
 }
 .right{
     color: darkgreen;
+    background-color: #e6ffe6;
 }
 .wrong{
     color: darkred;
+    background-color: #ffe6e6;
 }

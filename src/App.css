@@ -11,5 +11,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin--bottom:10px ;
+  border-radius: 3px;
+  margin:15px 0;
 }
