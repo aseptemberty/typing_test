@@ -4,5 +4,6 @@ export const initialState = {
     class: 'base'
   }],
   accuracy: 0,
-  speed: 0
+  speed:0,
+  isFinished:false,
 }

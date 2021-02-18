@@ -1,7 +1,6 @@
 import React from 'react'
 import './HiddenInput.css'
 import {keyPressHandler} from '../../context/actions/keyPressHandler'
-import { speedCounter } from '../../context/actions/speedCounter'
 import { connect } from 'react-redux'
 
 class HiddenInput extends React.Component {
@@ -11,8 +10,7 @@ class HiddenInput extends React.Component {
        type="text"
        className="HiddenInput"
        id='HiddenInput'
-       onKeyPress={event => this.props.onKeyPressHandler(event.key,this.props.text)}
-       onKeyDown={this.props.onKeyDownHandler()}
+       onKeyPress={event => this.props.onKeyPressHandler(event.key, this.props.text,)}
      />
    )
  }
@@ -26,8 +24,7 @@ function mapStateToProps(state){
 
 function mapDispatchToProps (dispatch) {
  return {
-   onKeyPressHandler: (event,text) => dispatch(keyPressHandler(event,text)),
-   onKeyDownHandler: () => dispatch(speedCounter())
+   onKeyPressHandler: (event,text) => dispatch(keyPressHandler(event,text))
  }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(HiddenInput)

@@ -1,4 +1,4 @@
-export const START_TEXT = 'START_TEXT'
+export const START_EXERCISE = 'START_EXERCISE'
 export const ERASE_TEXT = 'ERASE_TEXT'
-export const COUNT_ACCURACY = 'COUNT_ACCURACY'
-export const COUNT_SPEED = 'COUNT_SPEED'
+export const FINISH_EXERCISE = ' FINISH_EXERCISE '
+export const ONE_KEY_PRESSED = ' ONE_KEY_PRESSED '
