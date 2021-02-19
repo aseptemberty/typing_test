@@ -1,6 +1,7 @@
 import { ERASE_TEXT, START_EXERCISE } from "../actionTypes";
 import { url } from "../../constants/constants";
 import axios from "axios";
+import {inputFocus} from "./inputFocus";
 
 export function startClickHandler(){
   return async dispatch=>{
@@ -16,8 +17,7 @@ export function startClickHandler(){
       const firstSymbol=text[0]
       firstSymbol.class='active'
 
-      const hiddenInput =document.getElementById('HiddenInput')
-      hiddenInput.focus()
+      inputFocus()
 
       dispatch(startExercise(text))
  }
