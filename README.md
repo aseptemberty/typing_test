@@ -1,15 +1,19 @@
 ## About this app
 
-This is the typing test, that measures printing speed and accuracy.
+This is the typing test that measures printing speed and accuracy.
 
 You can take the test here - https://intense-bayou-36624.herokuapp.com/
 
+You can install the application  and deploy using the commands:
+   
+   ### `yarn 
+   ### `yarn start
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn install`
+### `yarn 
 
 Install all dependencies for a project. 
 
