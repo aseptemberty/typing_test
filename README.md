@@ -1,6 +1,17 @@
+## About this app
+
+This is the typing test, that measures printing speed and accuracy.
+
+You can take the test here - https://intense-bayou-36624.herokuapp.com/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn install`
+
+Install all dependencies for a project. 
 
 ### `yarn start`
 
@@ -10,10 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
