@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import Nemi from './nemi1.png'
+import Nemi from './Nemi.png'
 
 export class FinishedExercise extends React.Component{
   render(){
